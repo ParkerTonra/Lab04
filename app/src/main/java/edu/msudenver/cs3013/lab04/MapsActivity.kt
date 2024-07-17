@@ -25,6 +25,10 @@ import edu.msudenver.cs3013.lab04.databinding.ActivityMapsBinding
 
 class MapsFragment : Fragment(), OnMapReadyCallback {
 
+    companion object {
+        private const val LOCATION_PERMISSION_REQUEST_CODE = 1
+    }
+
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
     private lateinit var requestPermissionLauncher: ActivityResultLauncher<String>
