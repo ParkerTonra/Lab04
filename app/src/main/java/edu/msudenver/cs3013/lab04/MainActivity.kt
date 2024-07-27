@@ -8,6 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.activity.viewModels
 
+//testing
 class MainActivity : AppCompatActivity() {
     private val viewModel: SharedViewModel by viewModels()
 
